@@ -13,7 +13,7 @@
 - `npm run build` to build the project and save the compiled scripts in dist folder
 - `npm run serve-compiled` to serve the already built project
 - `npm run build-serve-output` to compile and run the project and save the output in output.txt file in root
-- `npm run test` to run the test cases. Currently the coverage is 84.24% Statements - 278/330, 65.44% Branches - 89/136, 85.71% Functions - 66/77, 85.71% Lines - 252/294
+- `npm run test` to run the test cases. Currently the coverage is` 84.24% Statements - 278/330`, `65.44% Branches - 89/136`, `85.71% Functions - 66/77`, `85.71% Lines - 252/294`
 
 ### What can be done further
 

@@ -23,24 +23,24 @@ export class ResponseMessage {
     }
 
     private static creatingParkingLot({ capacity }: IResponseMessagePayload) {
-        const message = `Created parking of ${capacity} slots.\n`
+        const message = `Created parking of ${capacity} slots.`
         Logging.print(message)
     }
 
     private static park({ registration_number, spot_number }: IResponseMessagePayload) {
-        const message = `Car with vehicle registration number "${registration_number}" has been parked at slot number ${spot_number}.\n`
+        const message = `Car with vehicle registration number "${registration_number}" has been parked at slot number ${spot_number}.`
         Logging.print(message)
     }
 
     private static leave({ spot_number, registration_number, age }: IResponseMessagePayload) {
-        const message = `Slot number ${spot_number} vacated, the car with vehicle registration number "${registration_number}" left the space, the driver of the car was of age ${age}.\n`
+        const message = `Slot number ${spot_number} vacated, the car with vehicle registration number "${registration_number}" left the space, the driver of the car was of age ${age}.`
         Logging.print(message)
     }
 
     private static query({ spot_numbers }: IResponseMessagePayload) {
         let message = ``
         if (spot_numbers && spot_numbers.length) {
-            message = (spot_numbers as number[]).join(', ') + '\n'
+            message = (spot_numbers as number[]).join(', ')
         } else {
             message = Messages.RESULT_IS_EMPTY
         }

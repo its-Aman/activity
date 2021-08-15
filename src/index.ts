@@ -72,7 +72,7 @@ export class Main {
             default:
                 op.push("unknown platform.")
         }
-        op.push(`\nPlease enter the filepath accordingly.`)
+        op.push(`Please enter the filepath accordingly.`)
         console.log(op.join(' '), '\n')
     }
 }
