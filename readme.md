@@ -2,7 +2,6 @@
 
 - [TypeScript](https://www.typescriptlang.org/)
 
-
 ### How to Run
 
 - To run the input file, please provide the filepath with filename as `npm run build-serve [fileLocationWithName]` 
@@ -14,6 +13,11 @@
 - `npm run serve-compiled` to serve the already built project
 - `npm run build-serve-output` to compile and run the project and save the output in output.txt file in root
 - `npm run test` to run the test cases. Currently the coverage is` 84.24% Statements - 278/330`, `65.44% Branches - 89/136`, `85.71% Functions - 66/77`, `85.71% Lines - 252/294`
+
+
+### Class Diagram
+![class-diagram](https://github.com/its-Aman/squadstack-activity/blob/main/class_diagram.jpg?raw=true)
+
 
 ### What can be done further
 
